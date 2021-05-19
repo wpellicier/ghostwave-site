@@ -1,0 +1,32 @@
+body {
+    margin: 0;
+    background-color: rgb(113, 190, 113);
+}
+.container {
+    background-color: cadetblue;
+}
+nav {
+    background-color: black;
+    margin: 0 auto;
+}
+.nav-logo {
+    padding-left: 70px;
+    height: auto;
+    width: auto;
+    max-height: 72px;
+    max-width: 250px;
+}
+.nav-elements {
+    /*background-color: pink;*/
+    float: right;
+    padding-top: 30px;
+    padding-right: 70px;
+}
+.nav-elements a {
+    color: #f2f2f2;
+    text-align: center;
+    padding: 14px 30px;
+    text-decoration: none;
+    font-size: 17px;
+    font-family: "Arial";
+}
