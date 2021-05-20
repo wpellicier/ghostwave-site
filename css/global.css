@@ -107,14 +107,18 @@ h4 {
     letter-spacing: 3px;
     font-family: 'Roboto', sans-serif;
     line-height: 1.2;
+    padding: 0px;
+    margin: 0px;
+    padding-bottom: 10px;
 }
 h1{
     font-size: 1.8rem;
     letter-spacing: 2px;
     font-weight: 700;
     font-family: 'Roboto', sans-serif;
-    padding-bottom: 0px;
     display: block;
+    padding: 0px;
+    margin: 0px;
 }
 .second-home-box {
     background-image: 
@@ -139,6 +143,7 @@ h1{
     margin-right: 50px;;
 }
 .button {
+    margin-top: 20px;
     background-color: transparent; /* Green */
     border: 2px solid white;
     color: white;
