@@ -48,7 +48,7 @@ body {
     font-size: 17px;
     font-weight: 300;
     font-family: 'Roboto', sans-serif;
-    border-right: 0.3px solid white;;
+    border-right: 0.3px solid white;
 }
 .nav-elements a:last-child {
     border-right: none;
@@ -65,13 +65,6 @@ body {
         linear-gradient(to right,
         rgba(0,0,0,0.4), rgba(0,0,0,0)),
         url("../img/drone2.jpg");
-    /* Alternate background image:*/
-    /*
-    background-image:
-        linear-gradient(to right,
-      rgba(0,0,0,0.8), rgba(0,0,0,0)),
-         url("../img/drone.jpg");  
-         */       
     width:100%; 
     height:570px;
     background-position-x: 15%;
@@ -142,6 +135,24 @@ h1{
     float: right;
     margin-right: 50px;;
 }
+.third-home-box {
+    background-image: 
+        linear-gradient(to right,
+        rgba(0,0,0,0.8), rgba(0,0,0,0)),
+        url("../img/board_bw2.jpg");
+    width:100%; 
+    height:570px;
+    background-position-x: 15%;
+    background-repeat: no-repeat;
+    background-size: cover;
+    padding: 60px 0 60px;
+    margin-bottom: -1;
+    display: block;
+    position: relative;
+    overflow: auto;
+    /*max-width: 100%;
+    height: auto;*/
+}
 .button {
     margin-top: 20px;
     background-color: transparent; /* Green */
@@ -155,6 +166,110 @@ h1{
     font-family: 'Roboto', sans-serif;
     font-size: 16px;
 }
+
+/* Footer */
+footer {
+    width: 100%;
+    float: left;
+    padding: 80px 0 40px;
+    background: #000;
+    display: block;
+}
+.row {
+    width: 100%;
+    display: flex;
+    flex-wrap: wrap;
+    margin-right: -15px;
+    margin-left: -15px;
+}
+/* Left column */
+.foot-left {
+    position: relative;
+    border: 0;
+    padding: 0 15px;
+
+}
+footer h4 {
+    text-align: center;
+    margin-bottom: 30px;
+    color: #adadad;
+    font-weight: 700;
+}
+.socials {
+    border-right: 0;
+    height: auto;
+    float: none;
+    width: 371px;
+    padding-left: 35px;
+    margin: 0 auto 90px;
+    padding: 0 1.75rem 0 0;
+    box-sizing: border-box;
+    /* below may or may not be needed */
+    display: block;
+    list-style-type: disc;
+    margin-block-start: 1em;
+    margin-block-end: 1em;
+    margin-inline-start: 0px;
+    margin-inline-end: 0px;
+    padding-inline-start: 40px;;
+}
+.socials li {
+    list-style: none;
+    margin-bottom: 10px;
+}
+.socials li a {
+    color: #fff;
+    font-size: 12px;
+    font-weight: 300;
+    letter-spacing: .5px;
+    text-decoration: None;
+}
+/* Style all font awesome icons */
+.fa {
+    padding: 10px;
+    font-size: 2rem !important;
+    width: 30px;
+    text-align: center;
+    text-decoration: none;
+    border-radius: 70%;
+  }
+  /* Add a hover effect if you want */
+  .fa:hover {
+    opacity: 0.7;
+  }
+  /* Set a specific color for each brand */
+  /* Facebook */
+  .fa-facebook {
+    background: none;
+    color: white;
+  }
+  /* Twitter */
+  .fa-twitter {
+    background: none;
+    color: white;
+  }
+  /* Twitter */
+  .fa-linkedin {
+    background: none;
+    color: white;
+  }
+/* Center column */
+.foot-center{
+    border: 0;
+    padding: 0 15px;
+    border-right: 1px solid rgba(255,255,255,.2);
+    border-left: 1px solid rgba(255,255,255,.2);
+}
+.socials li.foot-nav{
+    text-align: center;
+}
+.foot-info a{
+    color: #adadad !important;
+    pointer-events: none;
+    cursor: default;
+}
+  
+ 
 
 
 
