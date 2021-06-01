@@ -427,6 +427,71 @@ footer h4 {
     position: relative;
     overflow: auto;
 }
+.first-about-box {
+    background-image: url("../img/drone4.jpg");
+    width:100%; 
+    height:570px;
+    background-position: left;
+    background-repeat: no-repeat;
+    background-size: cover;
+    padding: 0px 60px 60px;
+    margin-bottom: -1;
+    display: block;
+    position: relative;
+}
+.first-about-box p {
+    color: #fff;
+    font-family: 'Roboto', sans-serif;
+    font-size: 1.05rem;
+    line-height: 1.4;
+    font-weight: 200;
+}
+.second-about-box {
+    border-top: 1px solid rgba(255,255,255,.2);
+    background-image: url("../img/car.jpg");
+    width:100%; 
+    height:570px;
+    background-position: left;
+    background-repeat: no-repeat;
+    background-size: cover;
+    padding: 30px 60px 60px;
+    margin-bottom: -1;
+    display: block;
+    position: relative;
+}
+.second-about-box p {
+    color: #fff;
+    font-family: 'Roboto', sans-serif;
+    font-size: 1.05rem;
+    line-height: 1.4;
+    font-weight: 200;
+}
+.third-about-box {
+    background-image: url("../img/bees.jpg");
+    width:100%; 
+    height:570px;
+    background-position: left;
+    background-repeat: no-repeat;
+    background-size: cover;
+    padding-top: 50px;
+    padding-left: 400px;
+    margin-bottom: -1;
+    display: block;
+    position: relative;
+}
+.third-about-box p {
+    color: #fff;
+    font-family: 'Roboto', sans-serif;
+    font-size: 1.05rem;
+    line-height: 1.4;
+    font-weight: 200;
+}
+@media screen and (max-width: 800px) {
+    .third-about-box{
+        padding: 30px 60px 60px;
+    }
+}
+
 
 
 
