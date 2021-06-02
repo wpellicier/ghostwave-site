@@ -1,4 +1,5 @@
-@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@300;400;700&display=swap');/* Navbar and general setup */
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@300;400;700&display=swap');
+/* Navbar and general setup */
 div {
     border: box;
     box-sizing: border-box;
@@ -415,8 +416,8 @@ footer h4 {
     color: #fff;
 }
 .about-img-2{
-    background-image: url("../img/columbus.jpg");
-    background-position: center;
+    background-image: url("../img/osu2.jpg");
+    background-position: bottom;
     width:100%; 
     height:300px;
     background-repeat: no-repeat;
@@ -491,6 +492,121 @@ footer h4 {
         padding: 30px 60px 60px;
     }
 }
+
+/* Team Page */
+.team-title-box-1 {
+    box-sizing: border-box;
+    display: block;
+    background-color: black;
+}
+.team-title-box-1 h1 {
+    color: #fff;
+}
+.title-image-wrapper {
+    background-color: #fff;
+    position: relative;
+    height: 300px;
+    width: 100%;
+    background-image: url("../img/columbus.jpg");
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    padding-top: 50px;
+    padding-left: 400px;
+    margin-bottom: -1;
+    display: block;
+    position: relative;
+}
+.team-grid-wrapper {
+    position: relative;
+    display: block;
+    font-family: 'Roboto', sans-serif;
+    background-color: #e9ebed;
+    padding: 30px 0;
+    box-sizing: border-box;
+}
+.team-background {
+    position: relative;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 15.625rem;
+    background-color: #e9ebed;
+    box-sizing: border-box;
+    display: block;
+}
+.team-grid-align {
+    max-width: 950px!important;
+    position: relative;
+    display: block;
+    margin: 0 auto;
+    box-sizing: content-box;
+}
+.team-header-wrapper {
+    padding: 0 18px;
+    padding-bottom: 30px;
+}
+.team-header-wrapper h1 {
+    font-size: 2.05rem;
+}
+/* Three columns side by side */
+.column {
+    float: left;
+    width: 30%;
+    margin-bottom: 16px;
+    padding: 0 8px;
+    margin-left:30px;
+}
+/* Display the columns below each other instead of side by side on small screens */
+@media screen and (max-width: 800px) {
+    .column {
+      width: 75%;
+      display: block;
+    }
+}
+/* Add some shadows to create a card effect */
+.card {
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
+    background-color: white;
+}
+  
+/* Some left and right padding inside the container */
+.team-container {
+    padding: 0 16px;
+    background-color: white;
+} 
+/* Clear floats */
+.team-container::after, .row::after {
+    content: "";
+    clear: both;
+    display: table;
+}
+.title {
+    color: grey;
+}
+.additional-wrapper {
+    position: relative;
+    display: block;
+    font-family: 'Roboto', sans-serif;
+    background-color: #fff;
+    padding: 30px 0;
+    box-sizing: border-box;
+    height: 450px;
+}
+.additional-align {
+    max-width: 950px !important;
+    position: relative;
+    display: block;
+    margin: 0 auto;
+    box-sizing: content-box;
+    background-color: #fff;
+}
+.additional-align .card {
+    box-shadow: none;
+}
+
+
+
 
 
 
