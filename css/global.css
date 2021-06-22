@@ -87,12 +87,12 @@ body {
     height: auto;*/
 }
 .info-container-1 {
-    width: 50%;
+    width: 100%;
     padding-top: 30px;
     padding-bottom: 30px;;
-    padding-right: 15px;
+    padding-right: 0px;
     padding-left: 15px;
-    margin-right: -50px;
+    margin-right: 0px;
     margin-left: 50px;
     margin-top: 110px;
     box-sizing: border-box;
@@ -158,9 +158,42 @@ h1{
     margin-bottom: -1;
     display: block;
     position: relative;
-    overflow: auto;
+    /*overflow: auto;*/
     /*max-width: 100%;
     height: auto;*/
+}
+@media screen and (max-width: 800px) {
+    .first-home-box {
+        padding: 200px 0 60px;
+    }
+    .first-home-box .info-container-1 {
+        padding: 0;
+        margin: 0;
+        width: 80%;
+    }
+    .first-home-box .alignment-container .align-left {
+        display: block;
+        float: right;
+        margin-right: 50px;;
+    }
+    .second-home-box {
+        background-image: 
+            linear-gradient(to right,
+          rgba(0,0,0,0.9), rgba(0,0,0,0)),
+            url("../img/cars1.jpeg");
+    }
+    .third-home-box {
+        padding: 100px 0 60px;
+    }
+    .third-home-box .info-container-1 {
+        padding: 0;
+        margin: 0 !important;
+    }
+    .third-home-box .alignment-container .align-left {
+        display: block;
+        float: right;
+        margin-right: 50px;;
+    }
 }
 .button {
     margin-top: 20px;
@@ -459,9 +492,11 @@ footer h4 {
     background-position: left;
     background-repeat: no-repeat;
     background-size: cover;
-    padding: 0px 60px 60px;
-    /*padding-top: 100px;
-    padding-left: 500px;*/
+    padding: 30px 60px 60px;
+    /*
+    padding-top: 100px;
+    padding-left: 500px;
+    */
     margin-bottom: -1;
     display: block;
     position: relative;
@@ -516,6 +551,32 @@ footer h4 {
 @media screen and (max-width: 800px) {
     .third-about-box {
         padding: 30px 60px 60px;
+        background-image: 
+            linear-gradient(
+              rgba(0,0,0,0.3), rgba(0,0,0,0.3)
+              ),
+            url("../img/bees.jpg");
+    }
+    .threat-about-box {
+        background-image: 
+            linear-gradient(
+              rgba(0,0,0,0.6), rgba(0,0,0,0.6)
+              ),
+            url("../img/carrier.jpg");
+    }
+    .second-about-box { 
+        background-image: 
+            linear-gradient(
+              rgba(0,0,0,0.3), rgba(0,0,0,0.3)
+              ),
+            url("../img/car.jpg");
+    }
+    .first-about-box {
+        background-image: 
+            linear-gradient(
+              rgba(0,0,0,0.3), rgba(0,0,0,0.3)
+              ),
+            url("../img/drone4.jpg");
     }
     
 }
@@ -529,7 +590,7 @@ footer h4 {
 .team-title-box-1 h1 {
     color: #fff;
 }
-.title-image-wrapper {
+.title-image {
     background-color: #fff;
     position: relative;
     height: 300px;
@@ -538,11 +599,14 @@ footer h4 {
     background-position: center;
     background-repeat: no-repeat;
     background-size: cover;
-    padding-top: 50px;
-    padding-left: 400px;
+    padding: 60px 0 60px;
+    /*padding-top: 50px;
+    padding-left: 400px;*/
     margin-bottom: -1;
     display: block;
     position: relative;
+    box-sizing: border-box;
+    overflow: auto;
 }
 .team-grid-wrapper {
     position: relative;
@@ -585,7 +649,12 @@ footer h4 {
     margin-left:30px;
 }
 /* Display the columns below each other instead of side by side on small screens */
-ç
+@media screen and (max-width: 800px) {
+    .column {
+      width: 75%;
+      display: block;
+    }
+}
 /* Add some shadows to create a card effect */
 .card {
     /* box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2); Box shadow off for sleeker look */
@@ -642,15 +711,19 @@ footer h4 {
     background-position: center;
     background-repeat: no-repeat;
     background-size: cover;
+    padding: 60px 0 60px;
+    /*
     padding-top: 50px;
     padding-left: 400px;
+    */
     margin-bottom: -1;
     display: block;
     position: relative;
+    overflow: auto;
+    box-sizing: border-box;
 }
 .news-img {
     transition: transform .2s;
-
 }
 .news-img:hover {
     transform: scale(1.1);
