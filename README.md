@@ -1,2 +1,4 @@
 # ghostwave-site
-GhostWave website redesign
+Redesigned website for GhostWave Inc.
+
+Link: ghostwaveinc.com
